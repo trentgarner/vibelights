@@ -3931,6 +3931,16 @@ input[type="submit"].btn-block {
     line-height: inherit;
     white-space: nowrap;
 }
+.navbar-brand img {
+    width: 50px;  /* Adjust as needed */
+    height: auto;  /* Maintains aspect ratio */
+}
+
+.footer-brand img {
+    width: 100px;  /* Adjust as needed */
+    height: auto;  /* Maintains aspect ratio */
+}
+
 .navbar-brand:focus,
 .navbar-brand:hover {
     text-decoration: none;
@@ -11120,6 +11130,9 @@ label {
     height: 100%;
     -o-object-fit: cover;
     object-fit: cover;
+}
+.img-cover-1 {
+    width: 100%;
 }
 .img-cover-top {
     -o-object-position: center top;
