@@ -11131,6 +11131,9 @@ label {
     -o-object-fit: cover;
     object-fit: cover;
 }
+.img-cover-1 {
+    width: 100%;
+}
 .img-cover-top {
     -o-object-position: center top;
     object-position: center top;
